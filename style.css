@@ -135,6 +135,11 @@ ul li.checked::before {
     user-select: none;
 }
 
+ul li.checked .money{
+    text-decoration: line-through;
+
+}
+
 
 /* Doesn't appear to do anything. If the clicking breaks, uncomment this.
 .money.checked {background: #888;
