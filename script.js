@@ -10,7 +10,7 @@ for (i = 0; i < myNodelist.length; i++) {
 }
 
 //downvote
-var score = 0;
+
 
 
 
@@ -39,13 +39,6 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-downvote.onclick() {
-  score = score-1;
-}
-
-upvote.onclick() {
-  score = score +1;
-}
 
 
 
