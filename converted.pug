@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='style.css')
+    body
+        #myDIV.header
+            h2 Fundraiser Votes
+            input#myInput(type='text', placeholder='Title...')
+            span.addBtn(onclick='newElement()') Add
+            input#myMoney(type='text', placeholder='Cost...')
+        ul#myUL
+            li
+                | Upgrade the Gym
+                span.money  $150
+            li.checked
+                | Food At Meetings
+                span.money  $300
+            li
+                | Oppress Gamers
+                span.money  $420
+            li
+                | Replace Heater in Clubhouse
+                span.money  $20
+            li
+                | Community Outreach Programs
+                span.money  $72000
+            li
+                | New Coffee Intern
+                span.money  $150/yr
+        script(src='script.js')
