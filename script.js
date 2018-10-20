@@ -10,6 +10,8 @@ for (i = 0; i < myNodelist.length; i++) {
 }
 
 //downvote
+var score = 0;
+
 
 
 var myNodelist = document.getElementsByTagName("LI");
@@ -20,6 +22,7 @@ for (i = 0; i < myNodelist.length; i++) {
   span.className = "upvote";
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
+ 
 }
 
 
@@ -36,8 +39,13 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
+downvote.onclick() {
+  score = score-1;
+}
 
-
+upvote.onclick() {
+  score = score +1;
+}
 
 
 
