@@ -18,6 +18,7 @@ ul li {
     font-size: 18px;
     transition: 0.2s;
 
+
     /* make the list items unselectable */
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -112,3 +113,13 @@ input {
 .addBtn:hover {
     background-color: #bbb;
 }
+
+.money {
+    text-align:right;
+    padding: 12px 8px 12px 1000px;
+      -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
