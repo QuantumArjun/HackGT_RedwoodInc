@@ -9,6 +9,44 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
+//downvote
+
+
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("---");
+  span.className = "upvote";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+
+
+//upvote 
+
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("+++");
+  span.className = "downvote";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
 var i;

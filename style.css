@@ -70,6 +70,34 @@ ul li.checked::before {
     color: white;
 }
 
+
+.upvote{
+	color:grey;
+	position: absolute;
+	left: 400px;
+	
+}
+
+.upvote:hover {
+	background-color:#E80101;
+	color:black;
+}
+
+
+.downvote{
+	color:grey;
+	position: absolute;
+	left:325px;
+
+}
+
+.downvote:hover{
+	background-color:#44E801;
+	color: black;
+}
+
+
+
 /* Style the header */
 .header {
     background-color: #7278b2;
@@ -125,24 +153,14 @@ ul li.checked::before {
 }
 
 .money {
-    float:right;
+    position: absolute;
+    right: 50px;
     top: 0;
-    padding: 12px 16px 12px 30px;
+    padding: 12px 16px 12px 16px;
       -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.date {
-    text-align:center;
-    top: 0;
-    padding: 12px 16px 12px 30px;
-      -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
 }
 
 ul li.checked .money{
