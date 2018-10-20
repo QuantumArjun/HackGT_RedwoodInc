@@ -125,14 +125,24 @@ ul li.checked::before {
 }
 
 .money {
-    position: absolute;
-    right: 50px;
+    float:right;
     top: 0;
-    padding: 12px 16px 12px 16px;
+    padding: 12px 16px 12px 30px;
       -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.date {
+    text-align:center;
+    top: 0;
+    padding: 12px 16px 12px 30px;
+      -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
 ul li.checked .money{
