@@ -70,13 +70,19 @@ list.addEventListener('click', function(ev) {
 function newElement() {
   var li = document.createElement("li");
   var cost = document.createElement("span");
+  var date = document.createElement("span");
   cost.className = "money";
+  date.className = "dates";
   var inputValue = document.getElementById("myInput").value;
   var moneyValue = document.getElementById("myMoney").value;
+  var dateValue = document.getElementById("myDates").value;
   var t = document.createTextNode(inputValue);
   var c = document.createTextNode("$"+ moneyValue);
+  var d = document.createTextNode(dateValue)
     cost.appendChild(c);
+    date.appendChild(d);
   li.appendChild(t);
+  li.appendChild(date);
   li.appendChild(cost);
 
   if (inputValue === '') {
