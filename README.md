@@ -1,7 +1,4 @@
 # HackGT_RedwoodInc
-<<<<<<< HEAD
-Redwood Inc's HackGT project
-=======
 Redwood Inc's HackGT project.
 Online Platform to increase money accountability. It does this by creating a platform where users (ideally those who have donated/contributed to a certain project) can vote on how money is allocated towards a project.
 
